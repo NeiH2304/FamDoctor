@@ -1,0 +1,119 @@
+.testimonialSlider {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 20px 0 60px;
+  }
+  
+  .testimonialInner {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  
+  .testimonialItem {
+    min-width: 100%;
+    padding: 20px;
+  }
+  
+  .testimonialContent {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    position: relative;
+  }
+  
+  .quoteIcon {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    font-size: 60px;
+    color: rgba(0, 112, 192, 0.1);
+    font-family: 'Georgia', serif;
+    line-height: 1;
+  }
+  
+  .testimonialContent p {
+    font-size: 1.1rem;
+    font-style: italic;
+    margin: 20px 0 30px;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .testimonialAuthor {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .testimonialAuthorImg {
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-right: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    flex-shrink: 0;
+  }
+  
+  .testimonialImg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  .testimonialAuthorInfo h4 {
+    margin: 0;
+    font-size: 1.1rem;
+    color: var(--primary-color);
+  }
+  
+  .testimonialAuthorInfo p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #666;
+    font-style: normal;
+  }
+  
+  .testimonialDots {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  
+  .testimonialDot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #ddd;
+    margin: 0 5px;
+    cursor: pointer;
+    border: none;
+    transition: all 0.3s ease;
+  }
+  
+  .testimonialDot.active {
+    background-color: var(--primary-color);
+    transform: scale(1.2);
+  }
+  
+  @media (max-width: 768px) {
+    .testimonialContent {
+      padding: 25px 20px;
+    }
+    
+    .testimonialContent p {
+      font-size: 1rem;
+    }
+  }
+
+  .container {
+    width: 100%;
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
